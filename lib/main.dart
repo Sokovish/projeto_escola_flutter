@@ -1,11 +1,12 @@
 import 'package:flutter/material.dart';
+import 'screens/login/login_page.dart';
 
 void main() {
-  runApp(const Cadastro());
+  runApp(const Main());
 }
 
-class Cadastro extends StatelessWidget {
-  const Cadastro({super.key});
+class Main extends StatelessWidget {
+  const Main({super.key});
 
   @override
   Widget build(BuildContext context) {
